@@ -1,0 +1,11 @@
+#!/usr/bin/python
+import boto3
+ec2=boto3.resource('ec2')
+for i in ec2.instances.all():
+    list1=i.block_device_mappings
+    it=iter(list1)
+    for k in it:
+        for j in i.tags:
+            if j['Key']=='Name':
+               name=j['Value']
+               print i.id, i.private_ip_address, k['DeviceName'], k['Ebs']['VolumeId'], name

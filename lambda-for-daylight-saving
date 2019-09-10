@@ -1,0 +1,55 @@
+#!/usr/bin/python
+import boto3
+import logging
+cld=boto3.client('events')
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+#res=cld.list_rule_names_by_target(TargetArn="arn:aws:lambda:ap-southeast-1:460697895779:function:toebsconversion")
+def Change_Cron_Scheduler_For_DayLight(LambdaCronExp,Daylight_Saving):
+    splitLambdaCronExp = LambdaCronExp.split(' ')
+    if Daylight_Saving == "START":
+       if splitLambdaCronExp[1].isdigit():
+          splitLambdaCronExp[1] = str(int(splitLambdaCronExp[1]) + 1)
+    elif Daylight_Saving == "END":
+       if splitLambdaCronExp[1].isdigit():
+          splitLambdaCronExp[1] = str(int(splitLambdaCronExp[1]) - 1)
+    else:
+       sys.exit()
+
+    LambdaCronExp = str(splitLambdaCronExp)
+    LambdaCronExp = LambdaCronExp.replace('[','')
+    LambdaCronExp = LambdaCronExp.replace(']','')
+    LambdaCronExp = LambdaCronExp.replace("'","")
+    LambdaCronExp = LambdaCronExp.replace(',','')
+    return LambdaCronExp
+def manage_daylightsaving(event,context):
+    awsaccount=event['account']
+    for j in event['listoflambdafunction']:
+        #lambdaarn="arn:aws:lambda:ap-southeast-1:460697895779:function:"+j
+        lambdaarn='arn:aws:lambda:'+event['region']+':'+str(event['account'])+':function:'+j
+        #res=cld.list_rule_names_by_target(TargetArn="arn:aws:lambda:ap-southeast-1:460697895779:function:toebsconversion")
+        res=cld.list_rule_names_by_target(TargetArn=lambdaarn)
+        for i in res['RuleNames']:
+            res1=cld.describe_rule(Name=i)
+            print res1
+            print str(res1['ScheduleExpression'].strip('cron').strip('('')')).split()
+            logger.info('Previous schedule expression - '+ str(str(res1['ScheduleExpression'].strip('cron').strip('('')')).split()))
+            LambdaCronExp=str(res1['ScheduleExpression'].strip('cron').strip('('')'))
+            if event['daylightsaving'].upper() == 'START':
+               #LambdaCronExp=str(res1['ScheduleExpression'].strip('cron').strip('('')'))
+               Daylight_Saving="START"
+               print Change_Cron_Scheduler_For_DayLight(LambdaCronExp,Daylight_Saving)
+               print 'cron'+'('+Change_Cron_Scheduler_For_DayLight(LambdaCronExp,Daylight_Saving)+')'
+               updatedcronexp='cron'+'('+Change_Cron_Scheduler_For_DayLight(LambdaCronExp,Daylight_Saving)+')'
+               res2=cld.put_rule(Name=res1['Name'],ScheduleExpression=updatedcronexp,Description=res1['Description'])
+            elif event['daylightsaving'].upper() == 'END':
+               #LambdaCronExp=str(res1['ScheduleExpression'].strip('cron').strip('('')'))
+               Daylight_Saving="END"
+               print Change_Cron_Scheduler_For_DayLight(LambdaCronExp,Daylight_Saving)
+               print 'cron'+'('+Change_Cron_Scheduler_For_DayLight(LambdaCronExp,Daylight_Saving)+')'
+               updatedcronexp='cron'+'('+Change_Cron_Scheduler_For_DayLight(LambdaCronExp,Daylight_Saving)+')'
+               res2=cld.put_rule(Name=res1['Name'],ScheduleExpression=updatedcronexp,Description=res1['Description'])
+            else:
+               sys.exit()
+    return "daylight Saving function has been executed successfully"           
+

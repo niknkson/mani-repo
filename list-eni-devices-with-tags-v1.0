@@ -1,0 +1,12 @@
+#!/usr/bin/python
+import boto3
+ec2=boto3.resource('ec2')
+for i in ec2.instances.all():
+    if i.state.values()[1]=='running':
+       list1=i.network_interfaces_attribute
+       it=iter(list1)
+       for k in it:
+           for j in i.tags:
+               if j['Key']=='Name':
+                  name=j['Value']
+                  print i.id,i.private_ip_address,k['NetworkInterfaceId'],k['PrivateIpAddresses'][0]['PrivateIpAddress'],k['PrivateIpAddresses'][0]['Primary'],name

@@ -1,0 +1,40 @@
+[
+    [
+        [
+            "i-0be7b91e9bad70ec7", 
+            "running", 
+            "10.0.1.26", 
+            "boto-one", 
+            [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "Status": "attached", 
+                        "DeleteOnTermination": true, 
+                        "VolumeId": "vol-08a849181213fc17b", 
+                        "AttachTime": "2018-01-24T06:06:58.000Z"
+                    }
+                }
+            ]
+        ]
+    ], 
+    [
+        [
+            "i-0721d14f82ffa79ff", 
+            "running", 
+            "10.0.1.104", 
+            "boto-one", 
+            [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "Status": "attached", 
+                        "DeleteOnTermination": true, 
+                        "VolumeId": "vol-0ee7e2268cb8639ae", 
+                        "AttachTime": "2018-01-24T06:07:42.000Z"
+                    }
+                }
+            ]
+        ]
+    ]
+]

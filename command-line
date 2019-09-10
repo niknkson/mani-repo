@@ -1,0 +1,7 @@
+#!/usr/bin/python
+import boto3
+profile=raw_input("Select one profile-name from below list " + "\ndefault\nTokyo\nhtmedia-hh\nRedio\nRedio-US\nYou have selected: ")
+if profile.startswith('default') or profile.startswith('Tokyo')or profile.startswith('htmedia-hh') or profile.startswith('Redio') or profile.startswith('Redio-US'):
+   print profile
+else:
+    print "You have not selected right profle.. Please try again!"

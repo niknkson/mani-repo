@@ -1,0 +1,166 @@
+i-6c8afca1	10.137.160.21	/dev/sda1	vol-f2b3fe1a	HTC-EM-SEA-1b-WEB01	HT.com
+i-1e6b00ba	10.137.160.12	/dev/sdb	vol-5393b3bb	HT-DM-SEA-1b-Prod-webapp02	Emerging Content
+i-1e6b00ba	10.137.160.12	/dev/sda1	vol-d193b339	HT-DM-SEA-1b-Prod-webapp02	Emerging Content
+i-04c5c0087fced5d44	10.137.32.47	/dev/sda1	vol-020ab6e25699cda71	HTC-EM-SEA-1a-RHCS07	HT.com
+i-04c5c0087fced5d44	10.137.32.47	sdf	vol-e4c94723	HTC-EM-SEA-1a-RHCS07	HT.com
+i-04c5c0087fced5d44	10.137.32.47	sdg	vol-64c947a3	HTC-EM-SEA-1a-RHCS07	HT.com
+i-04c5c0087fced5d44	10.137.32.47	sdh	vol-e2c94725	HTC-EM-SEA-1a-RHCS07	HT.com
+i-04c5c0087fced5d44	10.137.32.47	sdi	vol-25c846e2	HTC-EM-SEA-1a-RHCS07	HT.com
+i-a1c89d2f	10.137.35.11	/dev/xvda	vol-28c50eee	HT-SEA-1a-NIN-1	Wordpress
+i-70386efe	10.137.34.12	/dev/sda1	vol-800cac46	HT-SEA-1a-SynHTS-Web-N	Emerging Content
+i-0372573893b85f8c6	10.137.35.232	/dev/sda1	vol-0675aaa82f2c89d08	HT-SEA-CommonWP	Wordpress
+i-3557ccf9	10.137.34.138	/dev/sdf	vol-5d739149	HTC-SEA-1a-AppMSG-01	HT.com
+i-3557ccf9	10.137.34.138	/dev/sdg	vol-f17290e5	HTC-SEA-1a-AppMSG-01	HT.com
+i-3557ccf9	10.137.34.138	/dev/sdh	vol-7d729069	HTC-SEA-1a-AppMSG-01	HT.com
+i-3557ccf9	10.137.34.138	/dev/sda1	vol-8a95634c	HTC-SEA-1a-AppMSG-01	HT.com
+i-f6d56478	10.137.66.78	/dev/sda1	vol-8195e046	HT-SEA-1a-TEST-SynWeb01	Emerging Content
+i-0f139fb7f1e57bec5	10.137.32.132	/dev/sda1	vol-03ba8ac51b83b2d86	Mint-NewMoney-POC	Livemint
+i-efd74b23	10.137.32.21	/dev/sda1	vol-a75a3360	HTC-EM-SEA-1a-WEB01	HT.com
+i-efd74b23	10.137.32.21	/dev/sdf	vol-2254d4a6	HTC-EM-SEA-1a-WEB01	HT.com
+i-efd74b23	10.137.32.21	/dev/sdg	vol-b1b63535	HTC-EM-SEA-1a-WEB01	HT.com
+i-e21ba92e	10.137.0.21	/dev/sda1	vol-5fd4c44a	HTC-EM-SEA-1a-nat	HT.com
+i-f6cde33a	10.137.32.60	/dev/sda1	vol-172e9303	HTC-EM-SEA-1a-GOLD	HT.com
+i-7980b0b5	10.137.34.180	/dev/sda1	vol-60cd4a74	HT-SEA-1a-Syn-HTS-New-web	Emerging Content
+i-2aaa1aa4	10.137.67.231	/dev/sdf	vol-3d9093fa	HT-SEA-1a-TEST-SynFTP	Emerging Content
+i-2aaa1aa4	10.137.67.231	/dev/sda1	vol-aee29669	HT-SEA-1a-TEST-SynFTP	Emerging Content
+i-5aadcbd4	10.137.34.235	/dev/sda1	vol-b016b334	HT-SEA-1a-AQMAPS	HT.com
+i-0cd2a250dfd2fd31c	10.137.33.164	/dev/sda1	vol-065961e0ed896c0c2	HTC-EM-SEA-WEBAS	HT.com
+i-1e91ff90	10.137.35.5	/dev/xvda	vol-1eeee8d9	MINT-EM-SEA-1a-PushWeb01	Livemint
+i-bf5ec931	10.137.32.201	/dev/sda1	vol-914d1c56	MINT-EM-SEA-1a-GOLD	Livemint
+i-3dd70bf2	10.137.35.109	/dev/sda1	vol-28c058ef	HT-DM-SEA-1a-Prod-Utils01	Emerging Content
+i-3dd70bf2	10.137.35.109	/dev/sdb	vol-dbc1591c	HT-DM-SEA-1a-Prod-Utils01	Emerging Content
+i-07f1260a2b5834847	10.137.37.39	/dev/sda1	vol-081492353021def79	HTLC-SEA-1a-HTLCWeb01	HTLC
+i-00a38ee2a34f345d3	10.137.32.48	/dev/sda1	vol-0788bf7a17a6717b8	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdf	vol-161c5ad1	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdg	vol-611c5aa6	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdh	vol-4c1c5a8b	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdi	vol-5b1c5a9c	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdj	vol-f31d5b34	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdk	vol-a61c5a61	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdl	vol-981c5a5f	HTC-EM-SEA-1a-RHCS08	HT.com
+i-00a38ee2a34f345d3	10.137.32.48	sdm	vol-6f1c5aa8	HTC-EM-SEA-1a-RHCS08	HT.com
+i-512604df	10.137.35.242	/dev/sda1	vol-c8b5d10e	HT-SEA-1a-StaticContent	HT.com
+i-052114c9ab18411c9	10.137.34.230	/dev/sda1	vol-0bf352e38ea244279	HT-CirculationCRM	Corporate
+i-0299f3a6	10.137.160.62	/dev/sdb	vol-9f664677	HT-DM-SEA-1b-Prod-Utils03	Emerging Content
+i-0299f3a6	10.137.160.62	/dev/sda1	vol-90664678	HT-DM-SEA-1b-Prod-Utils03	Emerging Content
+i-0df08454177372a39	10.137.32.46	/dev/sda1	vol-086113f72c4e1e4d2	HTC-EM-SEA-1a-RHCS06	HT.com
+i-0df08454177372a39	10.137.32.46	sdf	vol-52c65195	HTC-EM-SEA-1a-RHCS06	HT.com
+i-0df08454177372a39	10.137.32.46	sdg	vol-4fc65188	HTC-EM-SEA-1a-RHCS06	HT.com
+i-0df08454177372a39	10.137.32.46	sdh	vol-5dc6519a	HTC-EM-SEA-1a-RHCS06	HT.com
+i-0df08454177372a39	10.137.32.46	sdi	vol-a7c65160	HTC-EM-SEA-1a-RHCS06	HT.com
+i-43053b8f	10.137.34.119	/dev/sda1	vol-f9d153ed	HT-SR-1a-DM-Staging	Emerging Content
+i-08bf256cdb1450b65	10.137.32.51	/dev/sda1	vol-0b0004e84fb4eec1c	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdba	vol-90cbda85	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdca	vol-93cbda86	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbb	vol-7dcbda68	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbc	vol-62cbda77	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbd	vol-efdfcefa	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbe	vol-31decf24	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbf	vol-b2c44a75	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbg	vol-83c74944	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbh	vol-d7c44a10	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbi	vol-28c749ef	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbj	vol-5dc44a9a	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbk	vol-bfc44a78	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbl	vol-c64dc942	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbm	vol-bc50df38	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbn	vol-d2369ec6	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbo	vol-55239d41	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbp	vol-8c229c98	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbq	vol-6b239d7f	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbr	vol-a9239dbd	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbs	vol-77cbda62	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbt	vol-17cadb02	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbu	vol-36decf23	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbv	vol-ecdfcef9	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbw	vol-2ec749e9	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbx	vol-f2c44a35	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdby	vol-e0c44a27	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdbz	vol-f1c44a36	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdcb	vol-1cc749db	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdcc	vol-8dc44a4a	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdcd	vol-23c846e4	HTC-EM-SEA-1a-NAS	HT.com
+i-08bf256cdb1450b65	10.137.32.51	/dev/xvdce	vol-24c846e3	HTC-EM-SEA-1a-NAS	HT.com
+i-05ed5a785b07fc641	10.137.160.34	/dev/sda1	vol-0053b2e63dabc5142	MINT-EM-SEA-WEBAS	Livemint
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/sda1	vol-08e0366de8ef856d0	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdba	vol-63d54a6d	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbb	vol-43d54a4d	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbc	vol-a5d54aab	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbd	vol-86d54a88	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbe	vol-61d54a6f	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbf	vol-7cd54a72	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbg	vol-e7b3d10f	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbh	vol-f8b3d110	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbi	vol-0bb2d0e3	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbj	vol-84b3d16c	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbk	vol-32b2d0da	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbl	vol-eab3d102	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbm	vol-6427bb6a	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbn	vol-6527bb6b	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbo	vol-6227bb6c	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbp	vol-7227bb7c	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbq	vol-a9d54aa7	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbr	vol-a6d54aa8	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbs	vol-60d54a6e	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbt	vol-5ed54a50	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbu	vol-628e4c8a	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbv	vol-e0b3d108	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbw	vol-f4b3d11c	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbx	vol-e2b3d10a	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdby	vol-9fb2d077	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdbz	vol-13b2d0fb	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdca	vol-90b2d078	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdcb	vol-d0b3d138	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdcc	vol-9db2d075	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdcd	vol-6838abb5	HTC-EM-SEA-1b-NAS	HT.com
+i-0d00b0dd4c45a4f51	10.137.160.51	/dev/xvdce	vol-ba58c267	HTC-EM-SEA-1b-NAS	HT.com
+i-cc7ced68	10.137.160.31	/dev/sda1	vol-6e91c486	MINT-EM-SEA-1b-WEB01	Livemint
+i-0bb65979413cfdaa1	10.137.32.44	/dev/sda1	vol-0883a1985625a1199	HTC-EM-SEA-1a-RHCS04	HT.com
+i-0bb65979413cfdaa1	10.137.32.44	sdf	vol-44cbda51	HTC-EM-SEA-1a-RHCS04	HT.com
+i-0bb65979413cfdaa1	10.137.32.44	sdg	vol-47cbda52	HTC-EM-SEA-1a-RHCS04	HT.com
+i-0bb65979413cfdaa1	10.137.32.44	sdh	vol-4cbd2c8b	HTC-EM-SEA-1a-RHCS04	HT.com
+i-0bb65979413cfdaa1	10.137.32.44	sdi	vol-c8bf2e0f	HTC-EM-SEA-1a-RHCS04	HT.com
+i-0bb65979413cfdaa1	10.137.32.44	sdj	vol-46cbda53	HTC-EM-SEA-1a-RHCS04	HT.com
+i-0bb65979413cfdaa1	10.137.32.44	sdk	vol-41cbda54	HTC-EM-SEA-1a-RHCS04	HT.com
+i-7dacc6d9	10.137.160.13	/dev/sda1	vol-280dd5f2	HT-DM-SEA-1b-Prod-webapp03	Emerging Content
+i-7dacc6d9	10.137.160.13	/dev/sdb	vol-1e0dd5c4	HT-DM-SEA-1b-Prod-webapp03	Emerging Content
+i-09e5245fd80b32e14	10.137.160.178	/dev/sda1	vol-0d0e9003e46a36ea8	HT-DM-SEA-1b-Prod-StaticWeb02-New	Emerging Content
+i-09e5245fd80b32e14	10.137.160.178	/dev/sdf	vol-0d3b84cdca2cc4e9a	HT-DM-SEA-1b-Prod-StaticWeb02-New	Emerging Content
+i-59fe6595	10.137.35.36	/dev/sdb	vol-c89c6cdc	HT-MINT-MintonSunday	Livemint
+i-59fe6595	10.137.35.36	/dev/sda1	vol-05d1b0be407d98a58	HT-MINT-MintonSunday	Livemint
+i-93caba1d	10.137.32.31	/dev/sda1	vol-95b8a452	MINT-EM-SEA-1a-WEB01	Livemint
+i-0cb06b5d3ca0d289e	10.137.32.41	/dev/sda1	vol-0c628d4604a9e8692	HTC-EM-SEA-1a-RHCS01	HT.com
+i-0cb06b5d3ca0d289e	10.137.32.41	sdf	vol-92cbda87	HTC-EM-SEA-1a-RHCS01	HT.com
+i-0cb06b5d3ca0d289e	10.137.32.41	sdg	vol-25cbda30	HTC-EM-SEA-1a-RHCS01	HT.com
+i-0cb06b5d3ca0d289e	10.137.32.41	sdh	vol-9dcbda88	HTC-EM-SEA-1a-RHCS01	HT.com
+i-0cb06b5d3ca0d289e	10.137.32.41	sdi	vol-9ccbda89	HTC-EM-SEA-1a-RHCS01	HT.com
+i-3666eab8	10.137.35.9	/dev/sda1	vol-50377a97	HT-SEA-1A-Insight-dev	HT.com
+i-e845a027	10.137.66.39	/dev/sdb	vol-31c4a925	HT-SEA-1a-Prod-htGifa-htGain	Emerging Content
+i-e845a027	10.137.66.39	/dev/sda1	vol-5d1f7749	HT-SEA-1a-Prod-htGifa-htGain	Emerging Content
+i-a63ded69	10.137.35.103	/dev/sda1	vol-e47fe323	HT-DM-SEA-1a-Prod-webapp01	Emerging Content
+i-a63ded69	10.137.35.103	/dev/sdb	vol-217fe3e6	HT-DM-SEA-1a-Prod-webapp01	Emerging Content
+i-fdec9673	10.137.35.240	/dev/sda1	vol-f7669231	HT-SEA-MobileNotification	HT.com
+i-4b0050c5	10.137.35.223	/dev/sda1	vol-fea50b38	HT-SEA-1A-Corporate	Corporate
+i-2719fca6	10.137.34.117	/dev/sda1	vol-c2ff7446	HT-SEA-1a-HTTP-Redirection-PrePROD	HT.com
+i-0c9abcfa6d77ef0ee	10.137.32.43	/dev/sda1	vol-0b79869ae9bcfecf0	HTC-EM-SEA-1a-RHCS03	HT.com
+i-0c9abcfa6d77ef0ee	10.137.32.43	sdf	vol-65cbda70	HTC-EM-SEA-1a-RHCS03	HT.com
+i-0c9abcfa6d77ef0ee	10.137.32.43	sdg	vol-67cbda72	HTC-EM-SEA-1a-RHCS03	HT.com
+i-0c9abcfa6d77ef0ee	10.137.32.43	sdh	vol-5ecbda4b	HTC-EM-SEA-1a-RHCS03	HT.com
+i-0c9abcfa6d77ef0ee	10.137.32.43	sdi	vol-58cbda4d	HTC-EM-SEA-1a-RHCS03	HT.com
+i-e58ca36b	10.137.34.253	/dev/sda1	vol-252c45a1	HT-SEA-1a-WhatNowCMS	HT.com
+i-e58ca36b	10.137.34.253	/dev/sdf	vol-6c2c45e8	HT-SEA-1a-WhatNowCMS	HT.com
+i-03ccc0d8093140447	10.137.32.45	/dev/sda1	vol-085926ef98e960f15	HTC-EM-SEA-1a-RHCS05	HT.com
+i-03ccc0d8093140447	10.137.32.45	sdf	vol-f9c0573e	HTC-EM-SEA-1a-RHCS05	HT.com
+i-03ccc0d8093140447	10.137.32.45	sdg	vol-34c057f3	HTC-EM-SEA-1a-RHCS05	HT.com
+i-03ccc0d8093140447	10.137.32.45	sdh	vol-26c057e1	HTC-EM-SEA-1a-RHCS05	HT.com
+i-03ccc0d8093140447	10.137.32.45	sdi	vol-97cf5850	HTC-EM-SEA-1a-RHCS05	HT.com
+i-14e5d9d8	10.137.34.170	/dev/sda1	vol-2ba2223f	HT-SEA-1a-SynDB	Emerging Content
+i-14e5d9d8	10.137.34.170	/dev/sdf	vol-67cd4a73	HT-SEA-1a-SynDB	Emerging Content
+i-14e5d9d8	10.137.34.170	/dev/sdg	vol-87ad4941	HT-SEA-1a-SynDB	Emerging Content
+i-0bfd1081c1babbc3d	10.137.32.42	/dev/sda1	vol-082392fa1b2812c40	HTC-EM-SEA-1a-RHCS02	HT.com
+i-0bfd1081c1babbc3d	10.137.32.42	sdf	vol-5ccbda49	HTC-EM-SEA-1a-RHCS02	HT.com
+i-0bfd1081c1babbc3d	10.137.32.42	sdg	vol-9fcbda8a	HTC-EM-SEA-1a-RHCS02	HT.com
+i-0bfd1081c1babbc3d	10.137.32.42	sdh	vol-5fcbda4a	HTC-EM-SEA-1a-RHCS02	HT.com
+i-0bfd1081c1babbc3d	10.137.32.42	sdi	vol-7acbda6f	HTC-EM-SEA-1a-RHCS02	HT.com
+i-cde7e301	10.137.34.90	/dev/sda1	vol-4e53da5a	HT-SEA-1a-Syn-HTS-Report	Emerging Content
+

@@ -1,0 +1,32 @@
+#!/usr/bin/python
+import boto3
+ec2Client = boto3.client('ec2')
+ec2Resource = boto3.resource('ec2')
+instance = ec2Resource.create_instances(
+    ImageId='ami-c63d6aa5',
+    InstanceType='t2.micro',
+    KeyName='myvpc2',
+    MaxCount=1,
+    MinCount=1,
+    Monitoring={
+        'Enabled': False
+    },
+    SecurityGroupIds=[
+        'sg-9be954fd'
+    ],
+
+    SubnetId='subnet-1c27dc55',
+    DryRun=False,
+    TagSpecifications=[
+        {
+            'ResourceType': 'instance',
+            'Tags': [
+                {
+                    'Key': 'Name',
+                    'Value': 'boto-one'
+                },
+            ]
+        },
+    ]
+)
+instance[0].wait_until_running()

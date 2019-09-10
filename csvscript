@@ -1,0 +1,14 @@
+#!/usr/bin/python
+import csv,boto3
+ec2=boto3.resource('ec2')
+for i in ec2.instances.all():
+  if i.tags:
+   list1=i.tags
+   it=iter(list1)
+   for k in it:
+     if k['Key']=='Name':
+        with open('names2.csv','w') as csvfile:
+          fieldnames=['INSTANCE-ID','TAG','STATUS','IP']
+          writer=csv.DictWriter(csvfile,fieldnames=fieldnames)
+          writer.writeheader()
+          writer.writerow({'INSTANCE-ID': i.id,'TAG': k['Value'],'STATUS': i.state['Name'],'IP': i.private_ip_address})

@@ -1,0 +1,17 @@
+#!/usr/bin/python
+import boto3
+ec2=boto3.resource('ec2')
+for i in ec2.volumes.all():
+     if i.tags==None and i.attachments==[]:
+        print i.id,i.state
+     elif i.attachments!=[] and i.tags==None:
+          instid=ec2.Instance(i.attachments[0]['InstanceId'])
+          if instid.tags[0]['Key']=='Name':
+             print i.id,i.state,'No-Tag',instid.id,instid.tags[0]['Value']
+     elif i.tags!=None and i.attachments==[]:
+          if i.tags[0]['Key']=='Name':
+             print i.id,i.state,i.tags[0]['Value']
+     else:
+          if i.tags[0]['Key']=='Name':
+             print i.id,i.state,i.tags[0]['Value'],i.attachments[0]['InstanceId'] 
+

@@ -1,0 +1,9 @@
+#!/usr/bin/python
+import boto3
+ec2=boto3.resource('ec2')
+list=[]
+for i in ec2.volumes.all():
+    if i.tags==None:
+       list.append(i.id)
+print list
+print len(list)

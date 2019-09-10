@@ -1,0 +1,14 @@
+#!/usr/bin/python
+import boto3
+ec2=boto3.resource('ec2')
+list=[]
+for i in ec2.volumes.all():
+     list.append(i.id)
+for j in list:
+    ebs=ec2.Volume(j)
+    if ebs.state=='available':
+       if ebs.tags==None and ebs.attachments==[]: 
+           print ebs.id,ebs.state,'No-Tag'
+       elif ebs.tags!=None and ebs.attachments==[]:
+            if ebs.tags[0]['Key']=='Name':
+               print ebs.id,ebs.state,ebs.tags[0]['Value']

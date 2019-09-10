@@ -1,0 +1,40 @@
+#!/usr/bin/python
+import boto3
+import time
+ec2client = boto3.client('ec2')
+ec2=boto3.resource('ec2')
+for i in ec2.instances.all():
+    instid=i.id
+    list1=i.block_device_mappings
+    it=iter(list1)
+    for j in it:
+        devname=j['DeviceName']
+        vol=ec2.Volume(j['Ebs']['VolumeId'])
+        if vol.volume_type=='standard':
+           if i.state['Name']=='running':
+              stopres=ec2client.stop_instances(InstanceIds=[i.id],DryRun=False)
+              i.wait_until_stopped()
+              snap=ec2.create_snapshot(VolumeId=j['Ebs']['VolumeId'],Description=vol.tags[0]['Value'])
+              snap.wait_until_completed()
+              newvol=ec2.create_volume(SnapshotId=snap.id,VolumeType='gp2',AvailabilityZone=vol.availability_zone,Size=vol.size)
+              time.sleep(5)
+              print newvol
+              detachres=ec2client.detach_volume(Device=j['DeviceName'],Force=True,InstanceId=i.id,VolumeId=vol.id,DryRun=False)
+              time.sleep(10)
+              attachres=ec2client.attach_volume(Device=devname,InstanceId=instid,VolumeId=newvol.id,DryRun=False)
+              time.sleep(5)
+              startres=ec2client.start_instances(InstanceIds=[i.id],DryRun=False)
+              i.wait_until_running()
+           elif i.state['Name']=='stopped':
+              snap1=ec2.create_snapshot(VolumeId=j['Ebs']['VolumeId'],Description=vol.tags[0]['Value'])
+              snap1.wait_until_completed()
+              newvol1=ec2.create_volume(SnapshotId=snap1.id,VolumeType='gp2',AvailabilityZone=vol.availability_zone,Size=vol.size)
+              time.sleep(5)
+              print newvol1
+              detachres1=ec2client.detach_volume(Device=j['DeviceName'],Force=True,InstanceId=i.id,VolumeId=vol.id,DryRun=False)
+              time.sleep(10)
+              attachres1=ec2client.attach_volume(Device=devname,InstanceId=instid,VolumeId=newvol1.id,DryRun=False)
+              time.sleep(5)
+              startres1=ec2client.start_instances(InstanceIds=[i.id],DryRun=False)
+              i.wait_until_running()
+

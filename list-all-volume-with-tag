@@ -1,0 +1,12 @@
+#!/usr/bin/python
+import boto3
+ec2=boto3.resource('ec2')
+for i in ec2.volumes.all():
+    if i.tags:
+       list1=i.tags
+       it=iter(list1)
+       for k in it:
+           if k['Key']=='Name':
+               print i.id,',',k['Value']
+    else:
+       print i.id,',',i.tags

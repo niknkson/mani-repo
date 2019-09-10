@@ -1,0 +1,15 @@
+#!/usr/bin/python
+import boto3
+ec2=boto3.resource('ec2')
+for i in ec2.instances.all():
+    list1=i.block_device_mappings
+    it=iter(list1)  
+    for k in it:
+        for j in i.tags:
+            if j['Key']=='Name':
+               ebs=ec2.Volume(k['Ebs']['VolumeId'])
+               if ebs.tags==None:
+                  print ebs.id,i.id,j['Value'],ebs.state,'No-Tag'
+               elif ebs.tags[0]['Key']=='Name':
+                  print ebs.id,i.id,j['Value'],ebs.tags[0]['Value'],ebs.state
+
